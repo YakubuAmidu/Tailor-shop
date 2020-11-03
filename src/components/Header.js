@@ -7,10 +7,10 @@ import Suit_two from "../assets/Suit_two.png";
 class Header extends Component {
   render() {
     return (
-      <div className="">
+      <div className="Header_section">
         <Row>
           <Col>
-            <div>
+            <div className="Header_info">
               <h2>World's Finest and Elegant Tuxedo</h2>
               <p>
                 This is just a place holder, so you can see what the site would
@@ -23,12 +23,16 @@ class Header extends Component {
             </div>
           </Col>
           <Col>
-            <img src={Suit} alt="suit-img" />
+            <div className="Header_image">
+              <img src={Suit} alt="suit-img" />
+            </div>
           </Col>
           <Col>
-            <div>
-              <p>Handcrafted and made from 100% wool</p>
-              <div>
+            <div className="Header_image-one">
+              <p className="Header_title">
+                Handcrafted and made from 100% wool
+              </p>
+              <div className="header_image-two">
                 <img src={Suit_one} alt="suit-img" />
                 <img src={Suit_two} alt="suit-img" />
               </div>
