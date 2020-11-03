@@ -54,12 +54,50 @@
   margin-bottom: 10px;
 }
 .About_section {
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
   padding-top: 30px;
   padding-bottom: 20px;
 }
+
+.About_header {
+  font-size: 45px;
+  font-family: "Righteous", cursive;
+}
+
+.Paragraph_title {
+  font-family: "Satisfy", cursive;
+}
+
+.About_title {
+  text-align: center;
+  justify-content: center;
+  border: 1px solid gray;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin: 5px;
+}
+
 .Image_three {
   width: 100%;
   height: 150px;
+}
+
+.Title_paragraph {
+  text-align: justify;
+  font-size: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.Blog_section {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.Blog_header {
+  font-size: 45px;
+  font-family: "Righteous", cursive;
 }
