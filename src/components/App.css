@@ -72,10 +72,10 @@
 .About_title {
   text-align: center;
   justify-content: center;
+  margin-bottom: 10px;
   border: 1px solid gray;
   padding-left: 0px;
   padding-right: 0px;
-  margin: 5px;
 }
 
 .Image_three {
@@ -100,4 +100,9 @@
 .Blog_header {
   font-size: 45px;
   font-family: "Righteous", cursive;
+}
+
+.Blog_title {
+  border: 1px solid gray;
+  margin-bottom: 10px;
 }
