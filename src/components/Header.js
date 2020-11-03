@@ -19,12 +19,12 @@ class Header extends Component {
                 see what the site would look like. This is just a place holder,
                 so you can see what the site would look like.
               </p>
-              <Button>Shop Now</Button>
+              <Button variant="outline-success">Shop Now</Button>
             </div>
           </Col>
           <Col>
             <div className="Header_image">
-              <img src={Suit} alt="suit-img" />
+              <img src={Suit} alt="suit-img" className="Image_one" />
             </div>
           </Col>
           <Col>
@@ -33,8 +33,8 @@ class Header extends Component {
                 Handcrafted and made from 100% wool
               </p>
               <div className="header_image-two">
-                <img src={Suit_one} alt="suit-img" />
-                <img src={Suit_two} alt="suit-img" />
+                <img src={Suit_one} alt="suit-img" className="Image_two" />
+                <img src={Suit_two} alt="suit-img" className="Image_two" />
               </div>
             </div>
           </Col>
