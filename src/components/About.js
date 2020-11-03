@@ -44,21 +44,21 @@ class About extends Component {
           <Row>
             <Col className="Blog_title" sm={4}>
               <p className="Blog_date">May 1, 2012 posted by: Jo</p>
-              <p className="Blot_detail">
+              <p className="Blog_detail">
                 This is just a place holder. This is just a place holder. This
                 is just a place holder. - read more
               </p>
             </Col>
             <Col className="Blog_title" sm={4}>
               <p className="Blog_date">May 1, 2012 posted by: Jo</p>
-              <p className="Blot_detail">
+              <p className="Blog_detail">
                 This is just a place holder. This is just a place holder. This
                 is just a place holder. - read more
               </p>
             </Col>
             <Col className="Blog_title" sm={4}>
               <p className="Blog_date">May 1, 2012 posted by: Jo</p>
-              <p lassName="Blot_detail">
+              <p lassName="Blog_detail">
                 This is just a place holder. This is just a place holder. This
                 is just a place holder. - read more
               </p>

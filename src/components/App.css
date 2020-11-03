@@ -104,5 +104,11 @@
 
 .Blog_title {
   border: 1px solid gray;
+  padding-top: 20px;
+  text-align: center;
   margin-bottom: 10px;
+}
+
+.Blog_detail {
+  text-align: justify;
 }
