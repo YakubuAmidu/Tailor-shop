@@ -9,28 +9,30 @@ class About extends Component {
     return (
       <Row className="About_section">
         <h1 className="About_header">About</h1>
-        <Col>
-          <p>We are Makers of custom handmade Tailored suits</p>
-          <div>
-            <img src={SuitThree} alt="Suit-img" />
-            <p>HANDMADE</p>
-            <p>
+        <Col className="About_title">
+          <p className="Paragraph_title">
+            We are Makers of custom handmade Tailored suits
+          </p>
+          <div div className="Image_title">
+            <img src={SuitThree} alt="Suit-img" className="Image_three" />
+            <p className="Title_header">HANDMADE</p>
+            <p className="Title_paragraph">
               This is just a place holder, so you can see what the site would
               look like.
             </p>
           </div>
-          <div>
-            <img src={SuitFive} alt="Suit-img" />
-            <p>HANDMADE</p>
-            <p>
+          <div className="Image_title">
+            <img src={SuitFive} alt="Suit-img" className="Image_three" />
+            <p className="Title_header">HANDMADE</p>
+            <p className="Title_paragraph">
               This is just a place holder, so you can see what the site would
               look like.
             </p>
           </div>
-          <div>
-            <img src={SuitFour} alt="Suit_img" />
-            <p>HANDMADE</p>
-            <p>
+          <div className="Image_title">
+            <img src={SuitFour} alt="Suit_img" className="Image_three" />
+            <p className="Title_header">HANDMADE</p>
+            <p className="Title_paragraph">
               This is just a place holder, so you can see what the site would
               look like.
             </p>
@@ -38,24 +40,24 @@ class About extends Component {
         </Col>
 
         <Col>
-          <p>Blog</p>
-          <div>
-            <p>May 1, 2012 posted by: Jo</p>
-            <p>
+          <p className="Blog_header">Blog</p>
+          <div className="Blog_title">
+            <p className="Blog_date">May 1, 2012 posted by: Jo</p>
+            <p className="Blot_detail">
               This is just a place holder. This is just a place holder. This is
               just a place holder. - read more
             </p>
           </div>
-          <div>
-            <p>May 1, 2012 posted by: Jo</p>
-            <p>
+          <div className="Blog_title">
+            <p className="Blog_date">May 1, 2012 posted by: Jo</p>
+            <p className="Blot_detail">
               This is just a place holder. This is just a place holder. This is
               just a place holder. - read more
             </p>
           </div>
-          <div>
-            <p>May 1, 2012 posted by: Jo</p>
-            <p>
+          <div className="Blog_title">
+            <p className="Blog_date">May 1, 2012 posted by: Jo</p>
+            <p lassName="Blot_detail">
               This is just a place holder. This is just a place holder. This is
               just a place holder. - read more
             </p>
