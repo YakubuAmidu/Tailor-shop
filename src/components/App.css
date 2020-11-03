@@ -10,7 +10,7 @@
   font-size: 12px;
 }
 
-.Link:hover {
+.Link_header:hover {
   text-decoration: none;
   background-color: #fff;
   color: gray;
@@ -22,13 +22,33 @@
   padding-left: 15px;
   padding-right: 15px;
   padding-top: 15px;
-  padding-bottom: 15px;
+  padding-bottom: 25px;
+}
+
+.Header_info {
+  text-align: center;
+}
+
+.Header_title {
+  font-family: "Satisfy", cursive;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.Paragraph_one {
+  text-align: justify;
+}
+
+.Button_shop {
+  margin-bottom: 20px;
 }
 
 .Image_one {
   width: 100%;
+  margin-bottom: 20px;
 }
 
 .Image_two {
   width: 100%;
+  margin-bottom: 10px;
 }
