@@ -1,6 +1,6 @@
 import React from "react";
-import Links from "./components/Links";
-import Header from "./components/Header";
+import Links from "./Links";
+import Header from "./Header";
 
 const App = () => {
   return (

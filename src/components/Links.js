@@ -1,43 +1,46 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import { Navbar, Nav } from "react-bootstrap";
+import "./App.css";
 
 class Links extends Component {
   render() {
     return (
       <div className="Navbar">
         <Navbar bg="dark" expand="md">
-          <Navbar.Brand href="#home">Tailer Shop</Navbar.Brand>
+          <Navbar.Brand href="#home">
+            <strong className="Talent_one">TAILOR SHOP</strong>
+          </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mr-auto">
-              <Nav.Link>
-                <Link to="/#" className="Link_home">
-                  Home
+              <Nav.Link href="#home">
+                <Link to="/#" className="Links_home">
+                  HOME
                 </Link>
               </Nav.Link>
-              <Nav.Link>
-                <Link to="/#" className="Link_product">
+              <Nav.Link href="#home">
+                <Link to="/Product" className="Links_product">
                   Product
                 </Link>
               </Nav.Link>
-              <Nav.Link>
-                <Link to="/#" className="Link_services">
+              <Nav.Link href="#home">
+                <Link to="/Services" className="Links_services">
                   Services
                 </Link>
               </Nav.Link>
-              <Nav.Link>
-                <Link to="/#" className="Link_blog">
+              <Nav.Link href="#home">
+                <Link to="/Blog" className="Links_blog">
                   Blog
                 </Link>
               </Nav.Link>
-              <Nav.Link>
-                <Link to="/#" className="Link_about">
+              <Nav.Link href="#home">
+                <Link to="/About" className="Links_about">
                   About
                 </Link>
               </Nav.Link>
-              <Nav.Link>
-                <Link to="/#" className="Link_contact">
+              <Nav.Link href="#home">
+                <Link to="/Contact" className="Links_contact">
                   Contact
                 </Link>
               </Nav.Link>
