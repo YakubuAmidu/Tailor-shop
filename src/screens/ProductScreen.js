@@ -1,5 +1,6 @@
 import React from "react";
 import Service from "../components/Service";
+import Links from "../components/Links";
 import Menone from "../assets/Menone.png";
 import Mentwo from "../assets/Mentwo.png";
 import Menthree from "../assets/Menthree.png";
@@ -9,6 +10,7 @@ import { Col, Row } from "react-bootstrap";
 const ProductScreen = () => {
   return (
     <div className="Product_section">
+      <Links />
       <p className="Suit_header">World's finest and elegant tuxedo's</p>
       <Row>
         <Col sm={6}>
@@ -36,6 +38,7 @@ const ProductScreen = () => {
           </div>
         </Col>
       </Row>
+      <hr />
       <Service />
     </div>
   );
