@@ -1,6 +1,9 @@
 body {
-  box-sizing: border-box;
+  font-family: "Piazzolla", serif;
+  font-weight: 400;
   font-size: 16px;
+  line-height: 1.7;
+  color: #777;
 }
 
 .Link_tailor {
@@ -18,7 +21,7 @@ body {
 .Link_header:hover {
   text-decoration: none;
   background-color: #fff;
-  color: gray;
+  color: #777;
 }
 
 .Header_section {
