@@ -1,4 +1,5 @@
 import React from "react";
+import Service from "../components/Service";
 import Menone from "../assets/Menone.png";
 import Mentwo from "../assets/Mentwo.png";
 import Menthree from "../assets/Menthree.png";
@@ -35,6 +36,7 @@ const ProductScreen = () => {
           </div>
         </Col>
       </Row>
+      <Service />
     </div>
   );
 };
