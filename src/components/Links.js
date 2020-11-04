@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import { Navbar, Nav } from "react-bootstrap";
+
 import "./App.css";
 
 class Links extends Component {
@@ -19,7 +20,7 @@ class Links extends Component {
               </Link>
             </Nav.Link>
             <Nav.Link href="#home">
-              <Link to="/Product" className="Link Link_header">
+              <Link to="/ProductScreen" className="Link Link_header">
                 Product
               </Link>
             </Nav.Link>
