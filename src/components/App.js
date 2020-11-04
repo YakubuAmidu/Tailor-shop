@@ -9,7 +9,9 @@ const App = () => {
     <div>
       <Links />
       <Header />
+      <hr />
       <About />
+      <hr />
       <Service />
     </div>
   );

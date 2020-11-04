@@ -117,6 +117,7 @@
   text-align: center;
   padding-left: 20px;
   padding-right: 20px;
+  padding-top: 30px;
   padding-bottom: 20px;
 }
 
@@ -130,5 +131,13 @@
 }
 
 .fa {
-  margin-right: 20px;
+  padding: 15px;
+  font-size: 30px;
+  width: 50px;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+  opacity: 0.8;
+  cursor: pointer;
 }
