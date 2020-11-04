@@ -7,8 +7,8 @@ class Service extends Component {
       <div className="Service_section">
         <Row>
           <Col className="Service">
-            <h1>Sercvices</h1>
-            <p>
+            <h1 className="Service_title">Sercvices</h1>
+            <p className="Service_paragraph">
               This website template has been designed by Free Website Templates
               for you, for free. You can replace all this text with your own
               text. You can remove any link to our website from this website
@@ -18,7 +18,7 @@ class Service extends Component {
             </p>
 
             <div className="Social_icons">
-              <h5>Connect with me</h5>
+              <h5 className="Connect">Connect with me</h5>
               <i class="fa fa-facebook-official" aria-hidden="true"></i>
               <i class="fa fa-twitter-square" aria-hidden="true"></i>
               <i class="fa fa-google-plus-square" aria-hidden="true"></i>

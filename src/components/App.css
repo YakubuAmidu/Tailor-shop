@@ -117,8 +117,18 @@
   text-align: center;
   padding-left: 20px;
   padding-right: 20px;
+  padding-bottom: 20px;
 }
 
-.Social_icons {
-  font-size: 40px;
+.Service_title {
+  font-size: 45px;
+  font-family: "Righteous", cursive;
+}
+
+.Service_paragraph {
+  text-align: justify;
+}
+
+.fa {
+  margin-right: 20px;
 }
