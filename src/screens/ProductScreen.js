@@ -10,28 +10,28 @@ const ProductScreen = () => {
     <div className="Product_section">
       <p className="Suit_header">World's finest and elegant tuxedo's</p>
       <Row>
-        <Col>
+        <Col sm={6}>
           <div className="Suit_image">
             <img src={Menone} alt="img" className="Suit_img" />
-            <h4>product name</h4>
-            <p>$1,000.00</p>
+            <h4 className="Suit_title">product name</h4>
+            <p className="Suit_price">$1,000.00</p>
           </div>
           <div className="Suit_image">
             <img src={Mentwo} alt="img" className="Suit_img" />
-            <h4>product name</h4>
-            <p>$1,000.00</p>
+            <h4 className="Suit_title">product name</h4>
+            <p className="Suit_price">$1,000.00</p>
           </div>
         </Col>
-        <Col>
+        <Col sm={6}>
           <div className="Suit_image">
             <img src={Menthree} alt="img" className="Suit_img" />
-            <h4>product name</h4>
-            <p>$1,000.00</p>
+            <h4 className="Suit_title">product name</h4>
+            <p className="Suit_price">$1,000.00</p>
           </div>
           <div className="Suit_image">
             <img src={Menfour} alt="img" className="Suit_img" />
-            <h4>product name</h4>
-            <p>$1,000.00</p>
+            <h4 className="Suit_title">product name</h4>
+            <p className="Suit_price">$1,000.00</p>
           </div>
         </Col>
       </Row>
