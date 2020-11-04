@@ -3,33 +3,38 @@ import Menone from "../assets/Menone.png";
 import Mentwo from "../assets/Mentwo.png";
 import Menthree from "../assets/Menthree.png";
 import Menfour from "../assets/Menfour.png";
+import { Col, Row } from "react-bootstrap";
 
 const ProductScreen = () => {
   return (
     <div className="Product_section">
-      <p>World's finest and elegant tuxedo's</p>
-      <div>
-        <div>
-          <img src={Menone} alt="img" />
-          <h4>product name</h4>
-          <p>$1,000.00</p>
-        </div>
-        <div>
-          <img src={Mentwo} alt="img" />
-          <h4>product name</h4>
-          <p>$1,000.00</p>
-        </div>
-        <div>
-          <img src={Menthree} alt="img" />
-          <h4>product name</h4>
-          <p>$1,000.00</p>
-        </div>
-        <div>
-          <img src={Menfour} alt="img" />
-          <h4>product name</h4>
-          <p>$1,000.00</p>
-        </div>
-      </div>
+      <p className="Suit_header">World's finest and elegant tuxedo's</p>
+      <Row>
+        <Col>
+          <div className="Suit_image">
+            <img src={Menone} alt="img" className="Suit_img" />
+            <h4>product name</h4>
+            <p>$1,000.00</p>
+          </div>
+          <div className="Suit_image">
+            <img src={Mentwo} alt="img" className="Suit_img" />
+            <h4>product name</h4>
+            <p>$1,000.00</p>
+          </div>
+        </Col>
+        <Col>
+          <div className="Suit_image">
+            <img src={Menthree} alt="img" className="Suit_img" />
+            <h4>product name</h4>
+            <p>$1,000.00</p>
+          </div>
+          <div className="Suit_image">
+            <img src={Menfour} alt="img" className="Suit_img" />
+            <h4>product name</h4>
+            <p>$1,000.00</p>
+          </div>
+        </Col>
+      </Row>
     </div>
   );
 };

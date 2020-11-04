@@ -152,3 +152,20 @@ body {
   opacity: 0.8;
   cursor: pointer;
 }
+
+.Product_section {
+  padding: 20px;
+  text-align: center;
+}
+
+.Suit_image {
+  border: 0.5px solid;
+  padding: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.Suit_img {
+  width: 100%;
+  height: 250px;
+}
