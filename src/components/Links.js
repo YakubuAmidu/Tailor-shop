@@ -30,7 +30,7 @@ class Links extends Component {
               </Link>
             </Nav.Link>
             <Nav.Link href="#home">
-              <Link to="/Blog" className="Link Link_header">
+              <Link to="/BlogScreen" className="Link Link_header">
                 Blog
               </Link>
             </Nav.Link>
