@@ -25,7 +25,7 @@ class Links extends Component {
               </Link>
             </Nav.Link>
             <Nav.Link href="#home">
-              <Link to="/Services" className="Link Link_header">
+              <Link to="/ServicesScreen" className="Link Link_header">
                 Services
               </Link>
             </Nav.Link>
