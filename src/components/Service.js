@@ -23,6 +23,11 @@ class Service extends Component {
               <i class="fa fa-twitter-square" aria-hidden="true"></i>
               <i class="fa fa-google-plus-square" aria-hidden="true"></i>
             </div>
+            <div>
+              <p>NewLetter</p>
+              <input type="text" name="email" placeholder="Enter email" />
+              <button className="btn-dark">go</button>
+            </div>
           </Col>
         </Row>
       </div>
