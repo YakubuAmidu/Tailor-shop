@@ -6,6 +6,8 @@ import { createBrowserHistory } from "history";
 import ProductScreen from "./screens/ProductScreen";
 import ServicesScreen from "./screens/ServicesScreen";
 import BlogScreen from "./screens/BlogScreen";
+import AboutScreen from "./screens/AboutScreen";
+import ContactScreen from "./screens/ContactScreen";
 
 ReactDOM.render(
   <Router history={createBrowserHistory()}>
@@ -14,6 +16,8 @@ ReactDOM.render(
       <Route exact path="/ProductScreen" component={ProductScreen} />
       <Route path="/ServicesScreen" component={ServicesScreen} />
       <Route path="/BlogScreen" component={BlogScreen} />
+      <Route path="/AboutScreen" component={AboutScreen} />
+      <Route path="/ContactScreen" component={ContactScreen} />
     </Switch>
   </Router>,
   document.getElementById("root")
