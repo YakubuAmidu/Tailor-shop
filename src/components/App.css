@@ -1,3 +1,8 @@
+body {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
 .Link_tailor {
   color: #fff;
   font-weight: bold;
@@ -88,6 +93,7 @@
   font-size: 15px;
   padding-left: 10px;
   padding-right: 10px;
+  font-family: "Piazzolla", serif;
 }
 
 .Blog_section {
@@ -111,6 +117,7 @@
 
 .Blog_detail {
   text-align: justify;
+  font-family: "Piazzolla", serif;
 }
 
 .Service_section {
@@ -128,6 +135,7 @@
 
 .Service_paragraph {
   text-align: justify;
+  font-family: "Piazzolla", serif;
 }
 
 .fa {
