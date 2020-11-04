@@ -112,3 +112,13 @@
 .Blog_detail {
   text-align: justify;
 }
+
+.Service_section {
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.Social_icons {
+  font-size: 40px;
+}
