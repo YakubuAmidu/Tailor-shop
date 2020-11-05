@@ -228,6 +228,18 @@ body {
   border: 1px solid;
 }
 
+.Appointment_header {
+  margin-top: 30px;
+}
+
+.Number_header {
+  margin-top: 30px;
+}
+
+.Location_header {
+  margin-top: 30px;
+}
+
 .Measure_paragraph {
   text-align: justify;
 }
