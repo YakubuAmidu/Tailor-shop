@@ -1,26 +1,30 @@
 import React, { Component } from "react";
 import { Col, Row, Button } from "react-bootstrap";
-import Suit from "../assets/Suit.png";
 import Suit_one from "../assets/Suit_one.png";
 import Suit_two from "../assets/Suit_two.png";
+import Suit from "../assets/Suit.png";
 
 class Header extends Component {
   render() {
     return (
       <div className="Header_section">
         <Row>
-          <Col className="Header_info" sm={4}>
-            <h2 className="Header_title">World's Finest and Elegant Tuxedo</h2>
-            <p className="Paragraph_one">
-              This is just a place holder, so you can see what the site would
-              look like. This is just a place holder, so you can see what the
-              site would look like. This is just a place holder, so you can see
-              what the site would look like. This is just a place holder, so you
-              can see what the site would look like.
-            </p>
-            <Button className="Button_shop" variant="outline-success">
-              Shop Now
-            </Button>
+          <Col sm={4}>
+            <div className="Header_info">
+              <h2 className="Header_title">
+                World's Finest and Elegant Tuxedo
+              </h2>
+              <p className="Header_paragraph-one">
+                This is just a place holder, so you can see what the site would
+                look like. This is just a place holder, so you can see what the
+                site would look like. This is just a place holder, so you can
+                see what the site would look like. This is just a place holder,
+                so you can see what the site would look like.
+              </p>
+              <Button className="Button_shop" variant="outline-success">
+                Shop Now
+              </Button>
+            </div>
           </Col>
           <Col className="Header_image" sm={4}>
             <img src={Suit} alt="suit-img" className="Image_one" />

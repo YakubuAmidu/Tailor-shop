@@ -43,7 +43,7 @@ body {
   text-align: center;
 }
 
-.Paragraph_one {
+.Header_paragraph-one {
   text-align: justify;
   font-family: "Piazzolla", serif;
 }
@@ -84,11 +84,11 @@ body {
   font-family: "Righteous", cursive;
 }
 
-.Paragraph_title {
+.Header_paragraph {
   font-family: "Satisfy", cursive;
 }
 
-.About_title {
+.About_image {
   text-align: center;
   justify-content: center;
   margin-bottom: 10px;
@@ -102,7 +102,7 @@ body {
   height: 150px;
 }
 
-.Title_paragraph {
+.Image_paragraph {
   text-align: justify;
   font-size: 15px;
   padding-left: 10px;
@@ -120,11 +120,18 @@ body {
   font-family: "Righteous", cursive;
 }
 
-.Blog_title {
+.Blog_info {
   border: 1px solid gray;
-  padding: 20px 15px;
+  padding: 15px 15px;
   text-align: center;
   margin-bottom: 10px;
+}
+
+.Blog_date {
+  text-align: center;
+  border: 1px solid;
+  padding: 10px 20px;
+  margin: 0 auto;
 }
 
 .Blog_detail {
@@ -255,13 +262,6 @@ body {
 
 .Blog_section-main {
   padding: 20px 15px;
-}
-
-.Blog_date {
-  text-align: center;
-  border: 1px solid;
-  padding: 10px 20px;
-  margin: 0 auto;
 }
 
 .Blog_image-one {
