@@ -68,11 +68,6 @@ body {
   margin-bottom: 30px;
 }
 
-.Image_two-sub:hover {
-  border: 0.5px solid #777;
-  opacity: 1;
-}
-
 .Image_sub-paragraph {
   margin-bottom: -5px;
 }
@@ -116,8 +111,6 @@ body {
 }
 
 .Blog_section {
-  padding-left: 20px;
-  padding-right: 20px;
   padding-top: 30px;
   padding-bottom: 20px;
 }
@@ -129,7 +122,7 @@ body {
 
 .Blog_title {
   border: 1px solid gray;
-  padding-top: 20px;
+  padding: 20px 15px;
   text-align: center;
   margin-bottom: 10px;
 }
@@ -205,10 +198,16 @@ body {
 }
 
 .Service_section-main {
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-top: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 15px;
   padding-bottom: 20px;
+}
+
+.Services_screen {
+  padding-bottom: 20px;
+  font-size: 45px;
+  font-family: "Righteous", cursive;
 }
 
 .Measureone {
@@ -218,6 +217,15 @@ body {
 .Measuretwo {
   max-width: 100%;
   max-height: 100%;
+}
+
+.Measure_paragraph-one {
+  text-align: justify;
+}
+
+.Measure_paragraph-two {
+  padding: 10px;
+  border: 1px solid;
 }
 
 .Measure_paragraph {
