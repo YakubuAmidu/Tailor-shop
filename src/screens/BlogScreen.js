@@ -41,15 +41,12 @@ const Blog = () => {
           </Col>
         </Row>
 
-        <div>
+        <div className="Blog_detail">
           <Row>
             <Col>
               <div className="Blog_detail-one">
-                <p className="Blog_categories">CATEGORIES:</p>
                 <ul className="Blog_list">
-                  <li>This is just a place holder.</li>
-                  <li>This is just a place holder.</li>
-                  <li>This is just a place holder.</li>
+                  <th>CATEGORIES:</th>
                   <li>This is just a place holder.</li>
                   <li>This is just a place holder.</li>
                   <li>This is just a place holder.</li>
@@ -58,11 +55,8 @@ const Blog = () => {
             </Col>
             <Col>
               <div className="Blog_detail-one">
-                <p className="Blog_categories">CATEGORIES:</p>
                 <ul className="Blog_list">
-                  <li>This is just a place holder.</li>
-                  <li>This is just a place holder.</li>
-                  <li>This is just a place holder.</li>
+                  <th>CATEGORIES:</th>
                   <li>This is just a place holder.</li>
                   <li>This is just a place holder.</li>
                   <li>This is just a place holder.</li>
@@ -71,11 +65,8 @@ const Blog = () => {
             </Col>
             <Col>
               <div className="Blog_detail-one">
-                <p lassName="Blog_categories">CATEGORIES:</p>
                 <ul className="Blog_list">
-                  <li>This is just a place holder.</li>
-                  <li>This is just a place holder.</li>
-                  <li>This is just a place holder.</li>
+                  <th>CATEGORIES:</th>
                   <li>This is just a place holder.</li>
                   <li>This is just a place holder.</li>
                   <li>This is just a place holder.</li>
@@ -95,10 +86,7 @@ const Blog = () => {
                   look like. This is just a place holder, so you can see what
                   the site would look like. This is just a place holder, so you
                   can see what the site would look like. This is just a place
-                  holder, so you can see what the site would look like. This is
-                  just a place holder, so you can see what the site would look
-                  like. This is just a place holder, so you can see what the
-                  site would look like. - read more
+                  holder, so you can see what the site would look like.
                 </p>
               </div>
             </Col>

@@ -260,14 +260,20 @@ body {
 .Blog_date {
   text-align: center;
   border: 1px solid;
-  padding: 10px 10px;
+  padding: 10px 20px;
   margin: 0 auto;
 }
 
 .Blog_image-one {
+  padding-bottom: 10px;
   width: 100%;
 }
 
 .Tailor_image-one {
   width: 100%;
+}
+
+.Blog_detail {
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
