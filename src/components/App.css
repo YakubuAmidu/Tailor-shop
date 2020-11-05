@@ -252,3 +252,22 @@ body {
 .Service_section-main {
   text-align: center;
 }
+
+.Blog_section-main {
+  padding: 20px 15px;
+}
+
+.Blog_date {
+  text-align: center;
+  border: 1px solid;
+  padding: 10px 10px;
+  margin: 0 auto;
+}
+
+.Blog_image-one {
+  width: 100%;
+}
+
+.Tailor_image-one {
+  width: 100%;
+}
