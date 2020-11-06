@@ -11,13 +11,11 @@ const Blog = () => {
     <div>
       <Links />
       <div className="Blog_section-main">
-        <p className="Blogheader">Blog</p>
+        <p className="Blog_header">Blog</p>
         <Row>
-          <Col>
+          <Col sm={6}>
             <div className="Blog_date">
-              <p className="Blog_date-one">
-                May 1, 2012 posted by: Jo This is just a place holder.
-              </p>
+              <p className="Blog_date-one">May 1, 2012 posted by: Jo</p>
               <img src={Brideone} alt="img" className="Blog_image-one" />
               <p className="Blog_paragraph">
                 This is just a place holder, so you can see what the site would
@@ -26,11 +24,9 @@ const Blog = () => {
               </p>
             </div>
           </Col>
-          <Col>
+          <Col sm={6}>
             <div className="Blog_date">
-              <p className="Blog_date-one">
-                May 1, 2012 posted by: Jo This is just a place holder.
-              </p>
+              <p className="Blog_date-one">May 1, 2012 posted by: Jo</p>
               <img src={Bridetwo} alt="img" className="Blog_image-one" />
               <p className="Blog_paragraph">
                 This is just a place holder, so you can see what the site would

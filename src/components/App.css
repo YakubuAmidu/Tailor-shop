@@ -265,9 +265,17 @@ body {
   padding: 20px 15px;
 }
 
+.Blog_date {
+  margin-bottom: 15px;
+}
+
 .Blog_image-one {
   padding-bottom: 10px;
   width: 100%;
+}
+
+.Blog_paragraph {
+  text-align: justify;
 }
 
 .Tailor_image-one {
