@@ -291,6 +291,15 @@ body {
   width: 100%;
 }
 
+.About_header-title {
+  font-size: 20px;
+  font-family: "Oswald", sans-serif;
+}
+
+.About_header-paragraph {
+  text-align: justify;
+}
+
 .Contact_section {
   padding-left: 20px;
   padding-right: 20px;

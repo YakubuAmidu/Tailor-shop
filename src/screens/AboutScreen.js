@@ -8,7 +8,7 @@ const AboutScreen = () => {
       <Links />
       <div className="About_section">
         <h1 className="About_header">AboutScreen</h1>
-        <p className="About_paragraph-header">
+        <p className="About_header-paragraph">
           This is just a place holder, so you can see what the site would look
           like. This is just a place holder, so you can see what the site would
           look like.
@@ -17,7 +17,7 @@ const AboutScreen = () => {
           <p className="About_header-title">
             We Have Free Templates for Everyone
           </p>
-          <p className="About_paragraph">
+          <p className="About_header-paragraph">
             Our website templates are created with inspiration, checked for
             quality and originality and meticulously sliced and coded. What's
             more, they're absolutely free! You can do a lot with them. You can
@@ -31,7 +31,7 @@ const AboutScreen = () => {
           <p className="About_header-title">
             We Have Free Templates for Everyone
           </p>
-          <p className="About_paragraph">
+          <p className="About_header-paragraph">
             Our website templates are created with inspiration, checked for
             quality and originality and meticulously sliced and coded. What's
             more, they're absolutely free! You can do a lot with them. You can
@@ -45,7 +45,7 @@ const AboutScreen = () => {
           <p className="About_header-title">
             We Have Free Templates for Everyone
           </p>
-          <p className="About_paragraph">
+          <p className="About_header-paragraph">
             Our website templates are created with inspiration, checked for
             quality and originality and meticulously sliced and coded. What's
             more, they're absolutely free! You can do a lot with them. You can
