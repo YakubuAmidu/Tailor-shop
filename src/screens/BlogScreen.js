@@ -38,6 +38,36 @@ const Blog = () => {
         </Row>
 
         <Row>
+          <Col sm={4}>
+            <div className="Blog_detail">
+              <p>This is just a place holder.</p>
+              <p>This is just a place holder.</p>
+              <p>This is just a place holder.</p>
+              <p>This is just a place holder.</p>
+              <p>This is just a place holder.</p>
+            </div>
+          </Col>
+          <Col sm={4}>
+            <div className="Blog_detail">
+              <p>This is just a place holder.</p>
+              <p>This is just a place holder.</p>
+              <p>This is just a place holder.</p>
+              <p>This is just a place holder.</p>
+              <p>This is just a place holder.</p>
+            </div>
+          </Col>
+          <Col sm={4}>
+            <div className="Blog_detail">
+              <p>This is just a place holder.</p>
+              <p>This is just a place holder.</p>
+              <p>This is just a place holder.</p>
+              <p>This is just a place holder.</p>
+              <p>This is just a place holder.</p>
+            </div>
+          </Col>
+        </Row>
+
+        <Row>
           <Col sm={6}>
             <div className="Tailor_details">
               <p className="Tailor_detail-one">

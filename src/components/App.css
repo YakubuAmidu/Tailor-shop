@@ -278,15 +278,9 @@ body {
   text-align: justify;
 }
 
-.Blog_detail-one {
-  padding-top: 40px;
-  padding-left: 15px;
-  padding-right: 15px;
-  padding-bottom: 40px;
-}
-
-li {
-  list-style-type: none;
+.Blog_detail {
+  text-align: center;
+  padding: 40px 15px;
 }
 
 .Tailor_detail-one {
