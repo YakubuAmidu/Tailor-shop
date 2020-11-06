@@ -12,7 +12,7 @@ const ServicesScreen = () => {
     <div>
       <Links />
       <div className="Service_section-main">
-        <h1 className="Services_screen">Services</h1>
+        <h1 className="Services_title">Services</h1>
         <Row>
           <Col sm={4}>
             <div className="Service_image">
@@ -80,7 +80,7 @@ const ServicesScreen = () => {
           <Col sm={4}>
             <div className="Number_header">
               <p className="Number">
-                Call: 987 654 3210 765 432 1098
+                Call: 987 654 3210 765
                 <br />
                 Email: company@emailcom
               </p>
