@@ -37,64 +37,27 @@ const Blog = () => {
           </Col>
         </Row>
 
-        <div className="Blog_detail">
-          <Row>
-            <Col>
-              <div className="Blog_detail-one">
-                <ul className="Blog_list">
-                  <th>CATEGORIES:</th>
-                  <li>This is just a place holder.</li>
-                  <li>This is just a place holder.</li>
-                  <li>This is just a place holder.</li>
-                </ul>
-              </div>
-            </Col>
-            <Col>
-              <div className="Blog_detail-one">
-                <ul className="Blog_list">
-                  <th>CATEGORIES:</th>
-                  <li>This is just a place holder.</li>
-                  <li>This is just a place holder.</li>
-                  <li>This is just a place holder.</li>
-                </ul>
-              </div>
-            </Col>
-            <Col>
-              <div className="Blog_detail-one">
-                <ul className="Blog_list">
-                  <th>CATEGORIES:</th>
-                  <li>This is just a place holder.</li>
-                  <li>This is just a place holder.</li>
-                  <li>This is just a place holder.</li>
-                </ul>
-              </div>
-            </Col>
-          </Row>
-        </div>
-
-        <div>
-          <Row>
-            <Col>
-              <div className="Tailor_details">
-                <p className="Tailor_detail-one">
-                  May 6, 2012 posted by: Mark This is just a place holder. This
-                  is just a place holder, so you can see what the site would
-                  look like. This is just a place holder, so you can see what
-                  the site would look like. This is just a place holder, so you
-                  can see what the site would look like. This is just a place
-                  holder, so you can see what the site would look like.
-                </p>
-              </div>
-            </Col>
-            <Col>
-              <div className="Tailor_image">
-                <img src={Tailorone} alt="img" className="Tailor_image-one" />
-              </div>
-            </Col>
-          </Row>
-        </div>
-        <Service />
+        <Row>
+          <Col sm={6}>
+            <div className="Tailor_details">
+              <p className="Tailor_detail-one">
+                May 6, 2012 posted by: Mark This is just a place holder. This is
+                just a place holder, so you can see what the site would look
+                like. This is just a place holder, so you can see what the site
+                would look like. This is just a place holder, so you can see
+                what the site would look like. This is just a place holder, so
+                you can see what the site would look like.
+              </p>
+            </div>
+          </Col>
+          <Col sm={6}>
+            <div className="Tailor_image">
+              <img src={Tailorone} alt="img" className="Tailor_image-one" />
+            </div>
+          </Col>
+        </Row>
       </div>
+      <Service />
     </div>
   );
 };

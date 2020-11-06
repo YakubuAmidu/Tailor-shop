@@ -278,13 +278,23 @@ body {
   text-align: justify;
 }
 
-.Tailor_image-one {
-  width: 100%;
+.Blog_detail-one {
+  padding-top: 40px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 40px;
 }
 
-.Blog_detail {
-  padding-top: 40px;
-  padding-bottom: 40px;
+li {
+  list-style-type: none;
+}
+
+.Tailor_detail-one {
+  text-align: justify;
+}
+
+.Tailor_image-one {
+  width: 100%;
 }
 
 .Contact_section {
