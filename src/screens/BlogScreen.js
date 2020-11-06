@@ -40,29 +40,29 @@ const Blog = () => {
         <Row>
           <Col sm={4}>
             <div className="Blog_detail">
-              <p>This is just a place holder.</p>
-              <p>This is just a place holder.</p>
-              <p>This is just a place holder.</p>
-              <p>This is just a place holder.</p>
-              <p>This is just a place holder.</p>
+              <p className="Blog_paragraph-one">This is just a place holder.</p>
+              <p className="Blog_paragraph-one">This is just a place holder.</p>
+              <p className="Blog_paragraph-one">This is just a place holder.</p>
+              <p className="Blog_paragraph-one">This is just a place holder.</p>
+              <p className="Blog_paragraph-one">This is just a place holder.</p>
             </div>
           </Col>
           <Col sm={4}>
             <div className="Blog_detail">
-              <p>This is just a place holder.</p>
-              <p>This is just a place holder.</p>
-              <p>This is just a place holder.</p>
-              <p>This is just a place holder.</p>
-              <p>This is just a place holder.</p>
+              <p className="Blog_paragraph-one">This is just a place holder.</p>
+              <p className="Blog_paragraph-one">This is just a place holder.</p>
+              <p className="Blog_paragraph-one">This is just a place holder.</p>
+              <p className="Blog_paragraph-one">This is just a place holder.</p>
+              <p className="Blog_paragraph-one">This is just a place holder.</p>
             </div>
           </Col>
           <Col sm={4}>
             <div className="Blog_detail">
-              <p>This is just a place holder.</p>
-              <p>This is just a place holder.</p>
-              <p>This is just a place holder.</p>
-              <p>This is just a place holder.</p>
-              <p>This is just a place holder.</p>
+              <p className="Blog_paragraph-one">This is just a place holder.</p>
+              <p className="Blog_paragraph-one">This is just a place holder.</p>
+              <p className="Blog_paragraph-one">This is just a place holder.</p>
+              <p className="Blog_paragraph-one">This is just a place holder.</p>
+              <p className="Blog_paragraph-one">This is just a place holder.</p>
             </div>
           </Col>
         </Row>
