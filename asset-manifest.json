@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/YakubuAmidu/Tailor-shop/static/css/main.f12ac6c9.chunk.css",
+    "main.js": "/YakubuAmidu/Tailor-shop/static/js/main.f8e0a550.chunk.js",
+    "main.js.map": "/YakubuAmidu/Tailor-shop/static/js/main.f8e0a550.chunk.js.map",
+    "runtime-main.js": "/YakubuAmidu/Tailor-shop/static/js/runtime-main.808dfa27.js",
+    "runtime-main.js.map": "/YakubuAmidu/Tailor-shop/static/js/runtime-main.808dfa27.js.map",
+    "static/js/2.b7ba05d6.chunk.js": "/YakubuAmidu/Tailor-shop/static/js/2.b7ba05d6.chunk.js",
+    "static/js/2.b7ba05d6.chunk.js.map": "/YakubuAmidu/Tailor-shop/static/js/2.b7ba05d6.chunk.js.map",
+    "index.html": "/YakubuAmidu/Tailor-shop/index.html",
+    "static/css/main.f12ac6c9.chunk.css.map": "/YakubuAmidu/Tailor-shop/static/css/main.f12ac6c9.chunk.css.map",
+    "static/js/2.b7ba05d6.chunk.js.LICENSE.txt": "/YakubuAmidu/Tailor-shop/static/js/2.b7ba05d6.chunk.js.LICENSE.txt",
+    "static/media/Brideone.3c6c4f0e.png": "/YakubuAmidu/Tailor-shop/static/media/Brideone.3c6c4f0e.png",
+    "static/media/Bridetwo.20c8f679.png": "/YakubuAmidu/Tailor-shop/static/media/Bridetwo.20c8f679.png",
+    "static/media/Measurefour.2f2bece8.png": "/YakubuAmidu/Tailor-shop/static/media/Measurefour.2f2bece8.png",
+    "static/media/Measureone.aeb8b901.png": "/YakubuAmidu/Tailor-shop/static/media/Measureone.aeb8b901.png",
+    "static/media/Measurethree.2ef8d1a8.png": "/YakubuAmidu/Tailor-shop/static/media/Measurethree.2ef8d1a8.png",
+    "static/media/Measuretwo.faf79d62.png": "/YakubuAmidu/Tailor-shop/static/media/Measuretwo.faf79d62.png",
+    "static/media/Menfour.1394abe5.png": "/YakubuAmidu/Tailor-shop/static/media/Menfour.1394abe5.png",
+    "static/media/Menone.ddb56f9b.png": "/YakubuAmidu/Tailor-shop/static/media/Menone.ddb56f9b.png",
+    "static/media/Menthree.aa68ae36.png": "/YakubuAmidu/Tailor-shop/static/media/Menthree.aa68ae36.png",
+    "static/media/Mentwo.58ae0ea4.png": "/YakubuAmidu/Tailor-shop/static/media/Mentwo.58ae0ea4.png",
+    "static/media/Suit.47c706b0.png": "/YakubuAmidu/Tailor-shop/static/media/Suit.47c706b0.png",
+    "static/media/Suit_four.02477c40.png": "/YakubuAmidu/Tailor-shop/static/media/Suit_four.02477c40.png",
+    "static/media/Tailorone.835b1807.png": "/YakubuAmidu/Tailor-shop/static/media/Tailorone.835b1807.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.808dfa27.js",
+    "static/js/2.b7ba05d6.chunk.js",
+    "static/css/main.f12ac6c9.chunk.css",
+    "static/js/main.f8e0a550.chunk.js"
+  ]
+}
